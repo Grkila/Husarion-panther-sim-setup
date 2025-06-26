@@ -29,13 +29,13 @@ Before you begin, ensure you have the following installed on your **host Linux s
 2.  **Make `setup_docker.sh` Executable:**
     Open a terminal in the directory containing the files and run:
     ```bash
-    chmod +x setup_docker.sh
+    chmod +x setup.sh
     ```
 
 3.  **Run the Setup Script:**
     Execute the script:
     ```bash
-    ./setup_docker.sh
+    ./setup.sh
     ```
     This script will:
     *   Build the Docker image (default name: `my-husarion-app:jazzy`). You can change this in the script.
